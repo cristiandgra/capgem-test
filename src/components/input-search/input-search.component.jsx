@@ -2,12 +2,12 @@ import React from "react";
 import SearchIcon from "../../assets/search-icon.png";
 import { SearchInputContainer, InputBar } from "./input-search.styles";
 
-export const SearchInput = ({ onChange }) => {
+export const SearchInput = ({ onChange, placeholder }) => {
   return (
     <SearchInputContainer>
       <InputBar
         type="text"
-        placeholder="Search with brand or model..."
+        placeholder={placeholder}
         onChange={(e) => onChange(e.target.value)}
       />
       <span>

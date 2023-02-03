@@ -21,7 +21,10 @@ export const ProductList = () => {
 
   return (
     <div>
-      <SearchInput onChange={filterProducts} />
+      <SearchInput
+        onChange={filterProducts}
+        placeholder="Search with brand or model..."
+      />
       <ProductListContainer>
         {filteredProducts.length ? (
           filteredProducts.map((product) => (

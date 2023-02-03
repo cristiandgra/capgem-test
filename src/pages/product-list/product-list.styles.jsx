@@ -15,7 +15,7 @@ export const ProductCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: gainsboro;
+  background: #81dcea;
   border-radius: 1rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
