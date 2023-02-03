@@ -14,6 +14,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Removed
 
+## [0.2.0] - 2023-02-03
+
+### Added
+
+- Added the mock db
+- Added product list page with the mock data
+- Added search input component
+
 ## [0.1.1] - 2023-02-02
 
 ### Added

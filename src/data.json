@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone X",
+    "model": "A1865",
+    "brand": "Apple",
+    "price": 999,
+    "colors": [
+      {
+        "name": "Space Gray",
+        "code": "#333333"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 999
+      },
+      {
+        "size": 256,
+        "price": 1149
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S21",
+    "model": "SM-G991B",
+    "brand": "Samsung",
+    "price": 799,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 799
+      },
+      {
+        "size": 256,
+        "price": 899
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 3,
+    "name": "Pixel 5",
+    "model": "G020G",
+    "brand": "Google",
+    "price": 699,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "White",
+        "code": "#FFFFFF"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 699
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 4,
+    "name": "iPhone 12",
+    "model": "A2400",
+    "brand": "Apple",
+    "price": 799,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "White",
+        "code": "#FFFFFF"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 799
+      },
+      {
+        "size": 128,
+        "price": 899
+      },
+      {
+        "size": 256,
+        "price": 999
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 5,
+    "name": "Galaxy S20",
+    "model": "SM-G980B",
+    "brand": "Samsung",
+    "price": 699,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 699
+      },
+      {
+        "size": 256,
+        "price": 799
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 6,
+    "name": "Pixel 4a",
+    "model": "G020F",
+    "brand": "Google",
+    "price": 499,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "White",
+        "code": "#FFFFFF"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 499
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 7,
+    "name": "iPhone 11",
+    "model": "A2221",
+    "brand": "Apple",
+    "price": 699,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "White",
+        "code": "#FFFFFF"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 699
+      },
+      {
+        "size": 128,
+        "price": 799
+      },
+      {
+        "size": 256,
+        "price": 899
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 8,
+    "name": "Galaxy S10",
+    "model": "SM-G973B",
+    "brand": "Samsung",
+    "price": 599,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 599
+      },
+      {
+        "size": 256,
+        "price": 699
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 9,
+    "name": "Pixel 3a",
+    "model": "G020E",
+    "brand": "Google",
+    "price": 399,
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "White",
+        "code": "#FFFFFF"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 399
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 10,
+    "name": "iPhone 8",
+    "model": "A1863",
+    "brand": "Apple",
+    "price": 599,
+    "colors": [
+      {
+        "name": "Space Gray",
+        "code": "#333333"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 599
+      },
+      {
+        "size": 256,
+        "price": 699
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  }
+]
