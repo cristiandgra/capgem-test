@@ -12,13 +12,14 @@ export const BaseButton = styled.button`
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 
   &:hover {
     background-color: white;

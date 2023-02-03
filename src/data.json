@@ -1,0 +1,400 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone X",
+    "model": "A1865",
+    "brand": "Apple",
+    "description": "iPhone X features a new all-screen design. Face ID, which makes your face your password",
+    "price": 999,
+    "CPU": "A11 Bionic",
+    "RAM": "3 GB",
+    "SO": "iOS 11",
+    "ScreenResolution": "1125 x 2436 pixels",
+    "ScreenSize": "5.8 inches",
+    "ScreenType": "Super AMOLED",
+    "battery": "2716 mAh",
+    "camera": "12 MP",
+    "dimensions": "143.6 x 70.9 x 7.7 mm",
+    "weight": "174 g",
+    "colors": [
+      {
+        "name": "Gray",
+        "code": "#333333"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      },
+      {
+        "name": "Green",
+        "code": "#006400"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 999
+      },
+      {
+        "size": 256,
+        "price": 1149
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S21",
+    "model": "SM-G991B",
+    "brand": "Samsung",
+    "description": "The Galaxy S21 is the latest flagship smartphone from Samsung. It features a 6.2-inch Super AMOLED display, a 12MP triple camera setup, and a 4000mAh battery.",
+    "price": 799,
+    "CPU": "Exynos 2100",
+    "RAM": "8 GB",
+    "SO": "Android 11",
+    "ScreenResolution": "1080 x 2400 pixels",
+    "ScreenSize": "6.2 inches",
+    "ScreenType": "Super AMOLED",
+    "battery": "4000 mAh",
+    "camera": "12 MP",
+    "dimensions": "161.5 x 75.6 x 7.8 mm",
+    "weight": "169 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 799
+      },
+      {
+        "size": 256,
+        "price": 899
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 3,
+    "name": "Pixel 5",
+    "model": "G020G",
+    "brand": "Google",
+    "description": "The Pixel 5 is the latest flagship smartphone from Google. It features a 6.0-inch OLED display, a 12.2MP dual camera setup, and a 4080mAh battery.",
+    "price": 699,
+    "CPU": "Snapdragon 765G",
+    "RAM": "8 GB",
+    "SO": "Android 11",
+    "ScreenResolution": "1080 x 2340 pixels",
+    "ScreenSize": "6.0 inches",
+    "ScreenType": "OLED",
+    "battery": "4080 mAh",
+    "camera": "12.2 MP",
+    "dimensions": "144.7 x 70.4 x 8.0 mm",
+    "weight": "151 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      },
+      {
+        "name": "Gold",
+        "code": "#FFD700"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 699
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 4,
+    "name": "iPhone 12",
+    "model": "A2400",
+    "brand": "Apple",
+    "description": "The iPhone 12 is the latest flagship smartphone from Apple. It features a 6.1-inch Super Retina XDR display, a 12MP triple camera setup, and a 2815mAh battery.",
+    "price": 799,
+    "CPU": "A14 Bionic",
+    "RAM": "4 GB",
+    "SO": "iOS 14",
+    "ScreenResolution": "1170 x 2532 pixels",
+    "ScreenSize": "6.1 inches",
+    "ScreenType": "Super Retina XDR",
+    "battery": "2815 mAh",
+    "camera": "12 MP",
+    "dimensions": "146.7 x 71.5 x 7.4 mm",
+    "weight": "164 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 799
+      },
+      {
+        "size": 128,
+        "price": 899
+      },
+      {
+        "size": 256,
+        "price": 999
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 5,
+    "name": "Galaxy S20",
+    "model": "SM-G980B",
+    "brand": "Samsung",
+    "description": "The Galaxy S20 is the latest flagship smartphone from Samsung. It features a 6.2-inch Super AMOLED display, a 12MP triple camera setup, and a 4000mAh battery.",
+    "price": 699,
+    "CPU": "Exynos 990",
+    "RAM": "8 GB",
+    "SO": "Android 10",
+    "ScreenResolution": "1080 x 2400 pixels",
+    "ScreenSize": "6.2 inches",
+    "ScreenType": "Super AMOLED",
+    "battery": "4000 mAh",
+    "camera": "12 MP",
+    "dimensions": "151.7 x 69.1 x 7.9 mm",
+    "weight": "163 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 699
+      },
+      {
+        "size": 256,
+        "price": 799
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 6,
+    "name": "Pixel 4a",
+    "model": "G020F",
+    "brand": "Google",
+    "description": "The Pixel 4a is the latest mid-range smartphone from Google. It features a 5.8-inch OLED display, a 12.2MP dual camera setup, and a 3140mAh battery.",
+    "price": 499,
+    "CPU": "Snapdragon 730G",
+    "RAM": "6 GB",
+    "SO": "Android 10",
+    "ScreenResolution": "1080 x 2340 pixels",
+    "ScreenSize": "5.8 inches",
+    "ScreenType": "OLED",
+    "battery": "3140 mAh",
+    "camera": "12.2 MP",
+    "dimensions": "144.7 x 69.4 x 8.2 mm",
+    "weight": "143 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 499
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 7,
+    "name": "iPhone 11",
+    "model": "A2221",
+    "brand": "Apple",
+    "description": "The iPhone 11 is the latest mid-range smartphone from Apple. It features a 6.1-inch Liquid Retina display, a 12MP dual camera setup, and a 3110mAh battery.",
+    "price": 699,
+    "CPU": "A13 Bionic",
+    "RAM": "4 GB",
+    "SO": "iOS 13",
+    "ScreenResolution": "828 x 1792 pixels",
+    "ScreenSize": "6.1 inches",
+    "ScreenType": "Liquid Retina",
+    "battery": "3110 mAh",
+    "camera": "12 MP",
+    "dimensions": "150.9 x 75.7 x 8.3 mm",
+    "weight": "194 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 699
+      },
+      {
+        "size": 128,
+        "price": 799
+      },
+      {
+        "size": 256,
+        "price": 899
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 8,
+    "name": "Galaxy S10",
+    "model": "SM-G973B",
+    "brand": "Samsung",
+    "description": "The Galaxy S10 is the latest mid-range smartphone from Samsung. It features a 6.1-inch Super AMOLED display, a 12MP triple camera setup, and a 3400mAh battery.",
+    "price": 599,
+    "CPU": "Exynos 9820",
+    "RAM": "8 GB",
+    "SO": "Android 9",
+    "ScreenResolution": "1440 x 3040 pixels",
+    "ScreenSize": "6.1 inches",
+    "ScreenType": "Super AMOLED",
+    "battery": "3400 mAh",
+    "camera": "12 MP",
+    "dimensions": "149.9 x 70.4 x 7.8 mm",
+    "weight": "157 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      },
+      {
+        "name": "Gold",
+        "code": "#FFD700"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 599
+      },
+      {
+        "size": 256,
+        "price": 699
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 9,
+    "name": "Pixel 3a",
+    "model": "G020E",
+    "brand": "Google",
+    "description": "The Pixel 3a is the latest mid-range smartphone from Google. It features a 5.6-inch OLED display, a 12.2MP dual camera setup, and a 3000mAh battery.",
+    "price": 399,
+    "CPU": "Snapdragon 670",
+    "RAM": "4 GB",
+    "SO": "Android 9",
+    "ScreenResolution": "1080 x 2220 pixels",
+    "ScreenSize": "5.6 inches",
+    "ScreenType": "OLED",
+    "battery": "3000 mAh",
+    "camera": "12.2 MP",
+    "dimensions": "145.6 x 68.2 x 8.2 mm",
+    "weight": "147 g",
+    "colors": [
+      {
+        "name": "Black",
+        "code": "#000000"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 399
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 10,
+    "name": "iPhone 8",
+    "model": "A1863",
+    "brand": "Apple",
+    "description": "The iPhone 8 is the latest mid-range smartphone from Apple. It features a 4.7-inch Retina display, a 12MP dual camera setup, and a 1821mAh battery.",
+    "price": 599,
+    "CPU": "A11 Bionic",
+    "RAM": "2 GB",
+    "SO": "iOS 11",
+    "ScreenResolution": "750 x 1334 pixels",
+    "ScreenSize": "4.7 inches",
+    "ScreenType": "Retina",
+    "battery": "1821 mAh",
+    "camera": "12 MP",
+    "dimensions": "138.4 x 67.3 x 7.3 mm",
+    "weight": "148 g",
+    "colors": [
+      {
+        "name": "Space Gray",
+        "code": "#333333"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 599
+      },
+      {
+        "size": 256,
+        "price": 699
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  }
+]
