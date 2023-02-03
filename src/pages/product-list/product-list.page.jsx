@@ -1,12 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
+import { ProductContext } from "../../context/product.context";
+
 import SearchInput from "../../components/input-search/input-search.component";
+import { ProductCard } from "../../components/product-card/product-card.component";
 
-import { ProductListContainer, ProductCard } from "./product-list.styles";
-import DB from "../../data.json";
-
-const products = DB;
+import {
+  ProductListContainer,
+  DashboardContainer,
+  EmptyProducts,
+} from "./product-list.styles";
 
 export const ProductList = () => {
+  const { products } = useContext(ProductContext);
   const [filteredProducts, setFilteredProducts] = useState(products);
 
   const filterProducts = (filter) => {
@@ -20,7 +26,7 @@ export const ProductList = () => {
   };
 
   return (
-    <div>
+    <DashboardContainer>
       <SearchInput
         onChange={filterProducts}
         placeholder="Search with brand or model..."
@@ -28,28 +34,14 @@ export const ProductList = () => {
       <ProductListContainer>
         {filteredProducts.length ? (
           filteredProducts.map((product) => (
-            <ProductCard key={product.id}>
-              <img
-                src={product.image}
-                alt={product.model}
-                width={120}
-                height={120}
-              />
-              <h2>{product.name}</h2>
-              <div>
-                <p>
-                  Model: <b>{product.model}</b>
-                </p>
-                <p>
-                  Price: <b>{product.price}$</b>
-                </p>
-              </div>
-            </ProductCard>
+            <ProductCard key={product.id} product={product} />
           ))
         ) : (
-          <p>No se encontraron productos con ese texto</p>
+          <EmptyProducts>
+            No se encontraron productos con esta marca o modelo
+          </EmptyProducts>
         )}
       </ProductListContainer>
-    </div>
+    </DashboardContainer>
   );
 };
