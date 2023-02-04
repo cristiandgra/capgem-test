@@ -13,6 +13,9 @@ export const ProductCard = ({ product }) => {
       <h2>{product.name}</h2>
       <div>
         <p>
+          Brand: <b>{product.brand}</b>
+        </p>
+        <p>
           Model: <b>{product.model}</b>
         </p>
         <p>

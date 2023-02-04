@@ -14,6 +14,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Removed
 
+## [1.0.0] - 2023-02-04
+
+### Added
+
+- Added cart context with the logic
+- Added persistor in the cart context
+- Added cart-item component
+- Added breadcrumb component
+
+### Changed
+
+- Changed the mock data for having more product details
+
 ## [0.3.0] - 2023-02-03
 
 ### Added
