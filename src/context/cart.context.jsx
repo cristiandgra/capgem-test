@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useState, useEffect, useMemo } from "react";
 
 export const CartContext = createContext({
   cart: [],
@@ -27,11 +27,18 @@ export const CartProvider = ({ children }) => {
   }, []);
 
   const addItem = (item) => {
-    const existingProduct = cart.find((product) => product.id === item.id);
+    const existingProduct = cart.find(
+      (product) =>
+        product.id === item.id &&
+        product.storage === item.storage &&
+        product.color === item.color
+    );
     if (existingProduct) {
       setCart(
         cart.map((product) =>
-          product.id === item.id
+          product.id === item.id &&
+          product.storage === item.storage &&
+          product.color === item.color
             ? { ...product, quantity: product.quantity + 1 }
             : product
         )
@@ -42,13 +49,29 @@ export const CartProvider = ({ children }) => {
   };
 
   const removeItem = (item) => {
-    const existingProduct = cart.find((product) => product.id === item.id);
+    const existingProduct = cart.find(
+      (product) =>
+        product.id === item.id &&
+        product.storage === item.storage &&
+        product.color === item.color
+    );
     if (existingProduct.quantity === 1) {
-      setCart(cart.filter((product) => product.id !== item.id));
+      setCart(
+        cart.filter(
+          (product) =>
+            !(
+              product.id === item.id &&
+              product.storage === item.storage &&
+              product.color === item.color
+            )
+        )
+      );
     } else {
       setCart(
         cart.map((product) =>
-          product.id === item.id
+          product.id === item.id &&
+          product.storage === item.storage &&
+          product.color === item.color
             ? { ...product, quantity: product.quantity - 1 }
             : product
         )
@@ -56,9 +79,10 @@ export const CartProvider = ({ children }) => {
     }
   };
 
-  return (
-    <CartContext.Provider value={{ cart, addItem, removeItem }}>
-      {children}
-    </CartContext.Provider>
+  const value = useMemo(
+    () => ({ cart, addItem, removeItem }),
+    [cart, addItem, removeItem]
   );
+
+  return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 };
