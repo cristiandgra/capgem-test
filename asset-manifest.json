@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/capgem-test/static/css/main.a0c4b003.css",
-    "main.js": "/capgem-test/static/js/main.9c674cd2.js",
+    "main.js": "/capgem-test/static/js/main.fc977ac0.js",
     "static/media/mobile-logo.png": "/capgem-test/static/media/mobile-logo.b25c68cdc98f353118d8.png",
     "static/media/shopping-bag.svg": "/capgem-test/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
     "index.html": "/capgem-test/index.html",
     "main.a0c4b003.css.map": "/capgem-test/static/css/main.a0c4b003.css.map",
-    "main.9c674cd2.js.map": "/capgem-test/static/js/main.9c674cd2.js.map"
+    "main.fc977ac0.js.map": "/capgem-test/static/js/main.fc977ac0.js.map"
   },
   "entrypoints": [
     "static/css/main.a0c4b003.css",
-    "static/js/main.9c674cd2.js"
+    "static/js/main.fc977ac0.js"
   ]
 }
