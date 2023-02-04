@@ -14,4 +14,13 @@ describe("Breadcrumb component", () => {
   it("should render Breadcrumb component", () => {
     expect(wrapper.length).toEqual(1);
   });
+
+  it("should render Breadcrumb component with product name", () => {
+    expect(wrapper.find("#breadcrumb").text()).toEqual(mockProduct.name);
+  });
+
+  it("should render Breadcrumb component with product name", () => {
+    wrapper = shallow(<Breadcrumb product={mockProduct} />);
+    expect(wrapper.find("#breadcrumb").text()).toEqual(mockProduct.name);
+  });
 });

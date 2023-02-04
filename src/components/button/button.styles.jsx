@@ -25,6 +25,11 @@ export const BaseButton = styled.button`
     background-color: white;
     color: black;
     border: 1px solid black;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    opacity: 0.5;
   }
 `;
 

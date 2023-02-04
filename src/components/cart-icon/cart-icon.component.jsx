@@ -14,7 +14,7 @@ const CartIcon = () => {
   return (
     <CartIconContainer>
       <ShoppingIcon className="shopping-icon" />
-      <ItemCount>{cartCount}</ItemCount>
+      <ItemCount id="itemCount">{cartCount}</ItemCount>
     </CartIconContainer>
   );
 };
