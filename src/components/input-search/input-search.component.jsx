@@ -8,7 +8,7 @@ export const SearchInput = ({ onChange, placeholder }) => {
       <InputBar
         type="text"
         placeholder={placeholder}
-        onChange={(e) => onChange(e.target.value)}
+        onChange={(e) => onChange(e.target.value.toLowerCase())}
       />
       <span>
         <img src={SearchIcon} alt="search-bar" width={24} height={24} />
