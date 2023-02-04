@@ -61,8 +61,8 @@
     "weight": "169 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -100,8 +100,8 @@
     "weight": "151 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -139,8 +139,8 @@
     "weight": "164 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -182,8 +182,8 @@
     "weight": "163 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -221,8 +221,8 @@
     "weight": "143 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -256,8 +256,8 @@
     "weight": "194 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -299,8 +299,8 @@
     "weight": "157 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -342,8 +342,8 @@
     "weight": "147 g",
     "colors": [
       {
-        "name": "Black",
-        "code": "#000000"
+        "name": "White",
+        "code": "#FFFFFF"
       },
       {
         "name": "Silver",
@@ -393,6 +393,88 @@
       {
         "size": 256,
         "price": 699
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 11,
+    "name": "iPhone 8 Plus",
+    "model": "A1864",
+    "brand": "Apple",
+    "description": "The iPhone 8 Plus is the latest mid-range smartphone from Apple. It features a 5.5-inch Retina display, a 12MP dual camera setup, and a 2691mAh battery.",
+    "price": 699,
+    "CPU": "A11 Bionic",
+    "RAM": "3 GB",
+    "SO": "iOS 11",
+    "ScreenResolution": "1080 x 1920 pixels",
+    "ScreenSize": "5.5 inches",
+    "ScreenType": "Retina",
+    "battery": "2691 mAh",
+    "camera": "12 MP",
+    "dimensions": "158.4 x 78.1 x 7.5 mm",
+    "weight": "202 g",
+    "colors": [
+      {
+        "name": "Space Gray",
+        "code": "#333333"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      }
+    ],
+    "storage": [
+      {
+        "size": 64,
+        "price": 699
+      },
+      {
+        "size": 256,
+        "price": 799
+      }
+    ],
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+  },
+  {
+    "id": 12,
+    "name": "Galaxy S10 Plus",
+    "model": "SM-G975B",
+    "brand": "Samsung",
+    "description": "The Galaxy S10 Plus is the latest mid-range smartphone from Samsung. It features a 6.4-inch Super AMOLED display, a 12MP triple camera setup, and a 4100mAh battery.",
+    "price": 699,
+    "CPU": "Exynos 9820",
+    "RAM": "8 GB",
+    "SO": "Android 9",
+    "ScreenResolution": "1440 x 3040 pixels",
+    "ScreenSize": "6.4 inches",
+    "ScreenType": "Super AMOLED",
+    "battery": "4100 mAh",
+    "camera": "12 MP",
+    "dimensions": "157.6 x 74.1 x 7.8 mm",
+    "weight": "175 g",
+    "colors": [
+      {
+        "name": "White",
+        "code": "#FFFFFF"
+      },
+      {
+        "name": "Silver",
+        "code": "#C7C7CC"
+      },
+      {
+        "name": "Gold",
+        "code": "#FFD700"
+      }
+    ],
+    "storage": [
+      {
+        "size": 128,
+        "price": 699
+      },
+      {
+        "size": 256,
+        "price": 799
       }
     ],
     "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"

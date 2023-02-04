@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProductDetailsContainer = styled.div`
   display: grid;
   grid-template-columns: 45% 45%;
-  margin: 40px 20px;
+  margin: 20px;
   padding: 30px;
   justify-items: center;
   align-items: center;
@@ -28,14 +28,11 @@ export const ProductDetailsImage = styled.img`
 `;
 
 export const ProductDetailsTable = styled.table`
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 20px 0;
   width: 100%;
   border-collapse: collapse;
   line-height: 1.5;
-  @media (max-width: 768px) {
-    font-size: 1rem;
-  }
 `;
 
 export const ProductDetailsTableBody = styled.tbody`
@@ -46,7 +43,7 @@ export const ProductDetailsTableBody = styled.tbody`
     }
   }
   td {
-    padding: 10px 0;
+    padding: 10px;
   }
   td:first-child {
     font-weight: 600;
@@ -67,12 +64,13 @@ export const ProductDetailsSelectLabel = styled.label`
 `;
 
 export const ProductDetailsSelect = styled.select`
-  border-radius: 100%;
-  width: 80px;
-  height: 80px;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
   border: 1px solid #ccc;
   margin: 0 10px;
   text-align: center;
+  cursor: pointer;
 `;
 
 export const ProductDetailsSelectOption = styled.option`
@@ -84,10 +82,10 @@ export const PriceContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 20px 0;
+  margin: 10px 0;
   @media (max-width: 768px) {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 `;
 
