@@ -11,7 +11,7 @@ const Breadcrumb = ({ product }) => {
     <BreadcrumbContainer>
       <BreadcrumbLink to="/">Product List</BreadcrumbLink>
       <BreadcrumbSeparator>{">"}</BreadcrumbSeparator>
-      <BreadcrumbLink to={`/product/${product.id}`}>
+      <BreadcrumbLink id="breadcrumb" to={`/product/${product.id}`}>
         {product.name}
       </BreadcrumbLink>
     </BreadcrumbContainer>

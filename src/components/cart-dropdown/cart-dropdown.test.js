@@ -6,6 +6,7 @@ import CartDropdown from "./cart-dropdown.component";
 
 describe("CartDropdown component", () => {
   let wrapper;
+
   beforeEach(() => {
     const mockUseContext = jest.fn();
     mockUseContext.mockReturnValue({

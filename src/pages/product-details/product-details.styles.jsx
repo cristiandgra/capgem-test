@@ -56,6 +56,12 @@ export const ProductDetailsSelectContainer = styled.div`
   justify-content: space-evenly;
   align-items: center;
   margin: 20px 0;
+  @media (max-width: 768px) {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 1rem;
+  }
 `;
 
 export const ProductDetailsSelectLabel = styled.label`
