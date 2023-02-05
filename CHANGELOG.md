@@ -16,6 +16,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [1.3.0] - 2023-02-04
 
+### Fixed
+
+- Fixed codesmell in product.context adding the useMemo.
+
+## [1.3.0] - 2023-02-04
+
 ### Added
 
 - Added footer component
