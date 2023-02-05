@@ -14,6 +14,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Removed
 
+## [1.3.0] - 2023-02-04
+
+### Added
+
+- Added footer component
+
 ## [1.2.2] - 2023-02-04
 
 ### Added
