@@ -40,7 +40,7 @@
         "price": 1149
       }
     ],
-    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+    "image": "src/assets/iphone.png"
   },
   {
     "id": 2,
@@ -79,7 +79,7 @@
         "price": 899
       }
     ],
-    "image": "https://cdn.pixabay.com/photo/2017/10/15/16/20/iphone-2854305_1280.png"
+    "image": "src/assets/samsung.png"
   },
   {
     "id": 3,

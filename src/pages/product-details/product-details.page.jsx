@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { ProductContext } from "../../context/product.context";
 import { CartContext } from "../../context/cart.context";
+import { ImageSelector } from "../../components/utils/ImageSelector";
 
 import Button from "../../components/button/button.component";
 
@@ -61,7 +62,7 @@ export const ProductDetails = () => {
       </div>
       <ProductDetailsContainer>
         <ProductDetailsImage
-          src={product.image}
+          src={ImageSelector(product)}
           alt={product.model}
           width={400}
           height={400}
