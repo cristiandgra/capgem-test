@@ -14,6 +14,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Removed
 
+## [1.2.2] - 2023-02-04
+
+### Added
+
+- Add utils functions for select mobile image
+
+### Changed
+
+- Changed images of phone
+
+### Removed
+
+- Removed the use of the images of the data.json
+
 ## [1.2.1] - 2023-02-04
 
 ### Fixed
